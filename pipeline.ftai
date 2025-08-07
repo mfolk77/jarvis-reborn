@@ -1,0 +1,84 @@
+@schema: pipeline.ftai
+@type: execution_workflow
+@version: 2.0
+@tags: @workflow @pipeline @serenanet @execution
+
+@pipeline_overview:
+name: SerenaNet Execution Pipeline
+purpose: Standardized workflow for task execution and decision routing
+scope: All projects - SerenaNet, Pocket Medic, MacroAI, Academy
+integration: FTIK memory system and agent coordination
+
+@execution_stages:
+1. input_collection:
+   sources: [Voice, Cursor IDE, Claude interface, Direct query]
+   preprocessing: Context extraction and intent analysis
+   validation: Input completeness and clarity verification
+   routing: Determine pipeline complexity and agent requirements
+
+2. memory_reference:
+   ftik_lookup: Retrieve relevant historical context
+   project_context: Load current project states and priorities
+   decision_history: Reference previous similar decisions
+   knowledge_graph: Connect related concepts and dependencies
+
+3. decision_routing:
+   simple_tasks: Direct execution without multi-agent coordination
+   complex_projects: Multi-agent collaboration protocol
+   strategic_decisions: Jarvis executive authority with consultation
+   technical_implementation: Claude planning → Gemini execution → o3 validation
+
+4. action_execution:
+   jarvis_direct: Strategic decisions and operational coordination
+   agent_delegation: Task-specific agent assignment and monitoring
+   mcp_integration: Tool utilization and external system coordination
+   parallel_processing: Simultaneous execution of independent tasks
+
+5. output_processing:
+   quality_validation: o3 verification of results
+   integration_check: Compatibility with existing systems
+   documentation: FTIK memory updates and decision logging
+   delivery_preparation: Format output for optimal user consumption
+
+6. feedback_loop:
+   outcome_tracking: Monitor execution success and failure points
+   process_optimization: Identify bottlenecks and improvement opportunities
+   memory_updates: Store learnings for future pipeline enhancement
+   performance_metrics: Measure speed, quality, and business impact
+
+@agent_coordination_flows:
+sequential_execution:
+  pattern: Jarvis → Claude → Gemini → o3
+  use_cases: Complex feature development, system architecture changes
+  timing: Each agent completes before next begins
+  checkpoints: Quality gates between each agent handoff
+
+parallel_execution:
+  pattern: Multiple agents working simultaneously
+  use_cases: Independent feature development, research tasks
+  coordination: Jarvis manages resource allocation and timeline
+  synchronization: Regular status updates and conflict resolution
+
+hierarchical_delegation:
+  pattern: Jarvis delegates to domain experts
+  use_cases: Specialized technical tasks, domain-specific decisions
+  authority: Jarvis maintains oversight and final approval
+  escalation: Complex decisions return to Jarvis for strategic input
+
+emergency_bypass:
+  pattern: Direct Jarvis execution without consultation
+  use_cases: Time-critical decisions, business continuity threats
+  criteria: High impact, urgent timeline, clear strategic direction
+  post_execution: Inform other agents of decisions and rationale
+
+@project_specific_pipelines:
+serenanet_development:
+  planning: Claude architectural analysis
+  implementation: Gemini Swift development
+  coordination: Jarvis agent management
+  validation: o3 system testing and optimization
+
+pocket_medic_pipeline:
+  medical_context: Leverage Mike's paramedic expertise
+  user_research: Claude analysis of healthcare workflows
+  develop
