@@ -1,0 +1,6 @@
+@schema: notion_updates.ftai
+@type: log
+@tags: @notion @results @status
+@instructions: Append-only. Each block records the outcome of a single queue entry. Never edit previous results.
+@results:
+@end
