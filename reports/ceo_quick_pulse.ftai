@@ -1,0 +1,43 @@
+@schema: ceo_quick_pulse.ftai
+@type: report
+@tags: @ceo @cto @coo @daily_brief
+@instructions: This is the daily morning meeting summary for Mike. All sections are concise but actionable. Claude fills CEO/COO sections from Notion; Jarvis fills CTO sections from GitHub/projects.
+
+@date: 
+@time_generated: <HH:MM:SS PT>
+
+@section: High-Priority Deadlines
+	1.	<project/task> — Due:  — Owner:  — Status: 
+	2.	<project/task> — Due:  — Owner:  — Status: 
+@end
+
+@section: CEO/COO Updates (Claude/Notion)
+	•	Key Meetings Today:
+	1.	 — <client/project> — Objective: 
+	•	Contract/Proposal Status:
+	•	<brief list>
+	•	Client/Lead Updates:
+	•	<brief list>
+@end
+
+@section: CTO Updates (Jarvis)
+	•	Current Focus:
+	•	<top 3 technical priorities>
+	•	Development Progress:
+	•	<status notes>
+	•	Blockers:
+	•	<issues>
+	•	Pending Decisions from Mike:
+	•	<list>
+@end
+
+@section: Financial Snapshot (Optional)
+	•	Current Revenue: $
+	•	Outstanding Invoices: $
+	•	Monthly Target: $
+@end
+
+@section: Quick Decisions Needed
+	1.	 — Needed by <date/time>
+	2.	 — Needed by <date/time>
+@end
