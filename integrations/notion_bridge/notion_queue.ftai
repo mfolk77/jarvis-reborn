@@ -1,0 +1,6 @@
+@schema: notion_queue.ftai
+@type: queue
+@tags: @notion @inbox @write_requests
+@instructions: Each entry is an atomic request from Jarvis to perform a Notion action. Process FIFO. After execution, append a result block to notion_updates.ftai and mark this entry done.
+@entries:
+@end
